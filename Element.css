@@ -1,0 +1,78 @@
+
+	#Background {
+
+	width:500px ;
+	height:500px;
+	background-image:url('Bg.png');
+}
+	#NameTitle {
+
+		position: relative;
+		top: 5px;
+		width: 250px;
+		height: 40px;
+		background-color: #b1bbcc;
+		left: 15%;
+		border-radius: 6px;	
+		border-color: transparent;
+		 outline-width: 0;
+		 font-size: 24px;
+		 color: #ffe207;
+		 font-family: runescape;
+
+	}
+
+	@font-face{
+		font-family: runescape;
+		src:url("runescape_uf.ttf");
+
+
+	}
+	#mid {
+		position: relative;
+		top: 30px;
+		width: 250px;
+		height: 440px;
+		background-image:url(ser.png);
+		right: -250px;
+		transform: scale(0.85,0.85);
+	}
+	#Search{
+		
+		width: 40px;
+		height: 40px;
+		background-color: 
+	}
+	#mt {
+		position: relative;
+		width: 200px;
+		right: -5px;
+		height: 35px;
+		background-color: white;
+		top:-430px;
+	}
+	#m1 {
+		position: relative;
+		width: 150px;
+		height: 30px;
+		right: -5px;
+		background-color: white;
+		top:-420px;
+	}
+	.Skill1{
+		position: relative;
+		width: 150px;
+		height: 25px;
+		right: -5px;
+		background-color: white;
+	
+	}
+
+	#HST {
+	position: relative;
+		width: 200px;
+		right: -5px;
+		height: 35px;
+		background-color: white;
+		top:-340px;
+	}

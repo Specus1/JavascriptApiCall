@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<HEAD>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/
+	jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Element.css">
+</HEAD>
+
+<HTML>
+
+
+	
+<TITLE>Stat Tracker</TITLE>
+
+<script type="text/javascript">
+var CharacterName; 
+CharacterName = "yunggoon";
+
+$.get("https://crystalmathlabs.com/tracker/api.php?type=track&player=(yunggoon)",
+function(cml) {
+				  
+	$("#FirstSkill").append('')
+var response = cml.split("\n");
+console.log(response);
+
+}
+ )
+
+
+
+
+</script>
+
+<BODY>
+	
+
+<DIV 
+id="Background">
+
+
+<DIV>	
+<FORM id = "UserName">
+
+	<input id="NameTitle" type="text" name="name"  maxlength="12" >
+	</FORM>
+</DIV>
+
+
+<div id="mid"></div>
+
+<div id="mt">
+	<p>Total Level: </p>
+
+</div>
+
+<div id="m1">
+	Trending Skills
+</div>
+
+<div class="Skill1" style="top:-400px;">
+</div>
+
+
+<div class="Skill1" style="	top:-380px;">
+	
+</div>
+
+<div class="Skill1" style="top:-360px;">
+	
+</div>
+
+<div id="HST">
+	highest stats
+</div>
+<div class="Skill1" style="top:-320px;">
+	
+</div>
+<div class="Skill1" style ="top:-300px;"">
+	
+</div>
+<div class="Skill1" style="top:-280px;"">
+	
+</div>
+
+
+	</DIV>
+
+
+
+</BODY>
+
+</HTML>

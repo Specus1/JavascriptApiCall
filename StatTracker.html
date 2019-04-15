@@ -13,9 +13,9 @@
 
 <script type="text/javascript">
 var CharacterName; 
-CharacterName = "yunggoon";
-
-$.get("https://crystalmathlabs.com/tracker/api.php?type=track&player=(yunggoon)",
+CharacterName = "";
+// here is how to api call in javascript, use .get of the specific api then append it 
+$.get("https://crystalmathlabs.com/tracker/api.php?type=track&player=()", 	
 function(cml) {
 				  
 	$("#FirstSkill").append('')
@@ -29,63 +29,3 @@ console.log(response);
 
 
 </script>
-
-<BODY>
-	
-
-<DIV 
-id="Background">
-
-
-<DIV>	
-<FORM id = "UserName">
-
-	<input id="NameTitle" type="text" name="name"  maxlength="12" >
-	</FORM>
-</DIV>
-
-
-<div id="mid"></div>
-
-<div id="mt">
-	<p>Total Level: </p>
-
-</div>
-
-<div id="m1">
-	Trending Skills
-</div>
-
-<div class="Skill1" style="top:-400px;">
-</div>
-
-
-<div class="Skill1" style="	top:-380px;">
-	
-</div>
-
-<div class="Skill1" style="top:-360px;">
-	
-</div>
-
-<div id="HST">
-	highest stats
-</div>
-<div class="Skill1" style="top:-320px;">
-	
-</div>
-<div class="Skill1" style ="top:-300px;"">
-	
-</div>
-<div class="Skill1" style="top:-280px;"">
-	
-</div>
-
-
-	</DIV>
-
-
-
-</BODY>
-
-</HTML>
